@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    border: 10px solid green;
+    align-content: flex-start;
+  }
+  
+  .box1 {
+    width:10vw;
+    background-color:blue;
+    order: 2;
+  }
+  
+  .box2 {
+    width:10vw;
+    background-color:red;
+  }
+  
+  .box3 {
+    width:10vw;
+    background-color:yellow;
+  }
+  
+  .box4 {
+    width:10vw;
+    background-color:orange;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:orange;
+    height: 50vh;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 40vw;
+  }
